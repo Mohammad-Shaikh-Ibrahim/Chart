@@ -3,9 +3,9 @@ import Chart from './Chart'
 
 function App() {
   return (
-    <BrowserRouter basename="/Chart/">
+    <BrowserRouter basename="/Chart">
       <Routes>
-        <Route path="/Chart" element={<Chart />} />
+        <Route path="/" element={<Chart />} />
       </Routes>
     </BrowserRouter>
   )
