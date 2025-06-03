@@ -1,15 +1,13 @@
-import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Chart from './Chart'
+
 function App() {
-
-
   return (
-    <>
-      <div className="App">
-        <h1>Chart</h1>
-        <Chart />
-      </div>
-    </>
+    <BrowserRouter basename="/Chart/">
+      <Routes>
+        <Route path="/Chart" element={<Chart />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

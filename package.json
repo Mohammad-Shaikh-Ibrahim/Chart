@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mohammad-shaikh-ibrahim.github.io/Chart/",
+  "homepage": "https://mohammad-shaikh-ibrahim.github.io/Chart",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -20,7 +20,8 @@
     "@mui/icons-material": "^7.1.0",
     "@mui/material": "^7.1.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
