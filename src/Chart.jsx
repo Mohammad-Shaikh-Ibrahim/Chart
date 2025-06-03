@@ -16,7 +16,6 @@ const SweepingEcgChart = () => {
   useEffect(() => {
     const container = chartContainerRef.current;
     if (!container) return;
-
     const lc = lightningChart({
       license:
         '0002-n0i9AP8MN/ezP+gV3RZRzNiQvQvBKwBJvTnrFTHppybuCwWuickxBJV+q3qyoeEBGSE4hS0aeo3pySDywrb/iIsl-MEUCIAiJOU3BrUq71LqSlRAIFAI0dKK05qBRIJYHFmBoOoIHAiEA4Y55O1QpeuEkiuVktPGLauOHc1TzxNu85/vz/eNscz8=',
@@ -27,7 +26,7 @@ const SweepingEcgChart = () => {
     });
 
     const chart = lc
-      .ChartXY({ container, theme: Themes.turquoiseHexagon })
+      .ChartXY({ container, theme: Themes.darkGold })
       .setTitle('Sweeping ECG');
 
     const axisTimeOrigin = Date.now();
