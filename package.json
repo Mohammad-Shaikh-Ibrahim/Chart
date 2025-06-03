@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Mohammad-Shaikh-Ibrahim.github.io/your-repo-name",
+  "homepage": "https://mohammad-shaikh-ibrahim.github.io/Chart/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
